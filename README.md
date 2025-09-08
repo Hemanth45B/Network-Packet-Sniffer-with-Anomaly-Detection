@@ -1,2 +1,22 @@
-# Network-Packet-Sniffer-with-Anomaly-Detection
-This project is a real-time network traffic sniffer built with Python that includes a system for anomaly detection and alerting. It captures network packets, analyzes them for suspicious patterns, logs the data to a database, and provides summaries and alerts. This tool is designed for network monitoring and cybersecurity applications.
+# Network Packet Sniffer with Anomaly Detection
+
+## Features
+- Real-time network sniffing with Scapy
+- Anomaly detection (simple logic, expandable to ML)
+- Alert system via print/log or email
+- SQLite logging and CLI/graphical traffic summary
+
+## Usage
+Install requirements:
+    pip install -r requirements.txt
+
+Run the sniffer:
+    sudo python sniffer.py
+
+See traffic summary and plot:
+    python report.py
+
+## Extending
+- Add GUI with Tkinter/PyQt
+- Improve anomaly logic in anomaly.py
+- Set email server in alert.py
