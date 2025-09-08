@@ -1,7 +1,7 @@
-Live Network Security Monitor with Anomaly Detection
+# Live Network Security Monitor with Anomaly Detection
 A real-time network traffic sniffer built with Python. It uses a machine learning model to detect anomalies and displays the results on a live web dashboard.
 
-Features
+# Features
 Real-time Packet Capture: Sniffs network packets and analyzes them on the fly using Scapy.
 
 ML-Powered Anomaly Detection: Uses a Scikit-learn (Isolation Forest) model to learn normal traffic patterns and flag suspicious outliers.
@@ -12,7 +12,7 @@ Live Interactive Dashboard: Visualizes network activity in real-time with a web-
 
 Persistent Logging: All captured packet data is stored in a local SQLite database for later analysis.
 
-Usage
+# Usage
 1. Installation
 First, clone the repository and install the necessary dependencies.
 
